@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class Day1Part1 {
+public class Day1 {
     public static void main(String[] args) throws IOException {
 
         FileReader fr = new FileReader("src/main/resources/calories.txt");
