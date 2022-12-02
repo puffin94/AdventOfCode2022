@@ -9,7 +9,7 @@ import java.util.Comparator;
 public class Day1 {
     public static void main(String[] args) throws IOException {
 
-        FileReader fr = new FileReader("src/main/resources/calories.txt");
+        FileReader fr = new FileReader("src/main/java/com/puffin94/day1/calories.txt");
         BufferedReader br = new BufferedReader(fr);
         ArrayList<Elf> elves = new ArrayList<Elf>();
         int count = 0;
