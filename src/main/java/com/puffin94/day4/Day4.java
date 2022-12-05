@@ -29,9 +29,7 @@ public class Day4 {
             }
 
             // Part 2
-            if ((g1End>=g2Start && g1End<=g2End) ||
-                    (g2End>=g1Start && g2End<=g1End)
-            ) {
+            if ((g1End >= g2Start && g1End <= g2End) || (g2End >= g1Start && g2End <= g1End)) {
                 overlapped++;
             }
         }
