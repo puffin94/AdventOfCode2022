@@ -58,7 +58,7 @@ public class Day5 {
         String line;
 
         System.out.println(getTopCrateFromEach());
-        
+
         while ((line = br.readLine()) != null) {
             String sub = line.substring(5);
             String[] instructions = sub.split(" ");
